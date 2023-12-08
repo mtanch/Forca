@@ -51,7 +51,7 @@ public class Forca {
 						encontrouLetra = true;
 					}
 				}
-				
+				// TODO FALTA TERMINAR ESSA LÓGICA DE ENCONTRAR LETRA E DE ENCONTRAR A PALAVRA
 				break;
 
 			case 'p':
