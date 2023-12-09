@@ -17,7 +17,7 @@ public class PalavraAleatoria {
 			return numero;
 
 		case "MEDIO":
-			numero = random.nextInt(30) + 1;
+			numero = random.nextInt(30);
 			return numero;
 			
 		case "DIFICIL":
