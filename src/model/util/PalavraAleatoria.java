@@ -13,15 +13,15 @@ public class PalavraAleatoria {
 		
 		switch (dificuldade.name()) {
 		case "FACIL":
-			numero = random.nextInt(41) + 1;
+			numero = random.nextInt(40) + 1;
 			return numero;
 
 		case "MEDIO":
-			numero = random.nextInt(30);
+			numero = random.nextInt(29) + 1;
 			return numero;
 			
 		case "DIFICIL":
-			numero = random.nextInt(50) + 1;
+			numero = random.nextInt(49) + 1;
 			return numero;
 		}
 		return numero;

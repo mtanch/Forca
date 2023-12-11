@@ -19,7 +19,7 @@ public class LetrasDescobertas {
 	
 	public void print() {
 		
-		System.out.print("\n[");
+		System.out.print("\n	[");
 		for (int i = 0 ; i < getPalavra().length() ; i++) {
 			if (letrasDescobertas[i] == true) {
 				System.out.print(getPalavra().charAt(i));

@@ -13,7 +13,16 @@ public class Program {
 		char dificuldade;
 		Forca forca;
 		
-		System.out.println("[Jogo da Forca]");
+		System.out.println(""
+				+ "	 ________\n"
+				+ "	|        |\n"
+				+ "	|	 O\n"
+				+ "	|	/|\\ [Jogo da Forca]\n"
+				+ "	|	/ \\\n"
+				+ "	|\n"
+				+ "	|	    [F] for respect\n"
+				+ "________|_________________\n");
+		
 		System.out.println();
 		System.out.println("Escolha a Dificuldade do jogo:");
 		System.out.println("[1] - Fácil");
@@ -32,6 +41,9 @@ public class Program {
 		case '3':
 			forca = new Forca(Dificuldade.DIFICIL);
 			forca.jogo();
+		default:
+			System.err.println("Escolha uma opção válida.");
+			break;	
 		}
 		
 		in.close();
